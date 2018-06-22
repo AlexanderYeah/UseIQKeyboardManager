@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EACAD677FACA981C621BD5 /* libPods-UseIQKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559BA04DE12D9B8D70EBCC95 /* libPods-UseIQKeyboardManager.a */; };
+		1167186720DC8CB500F20B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1167186620DC8CB500F20B18 /* AppDelegate.m */; };
+		1167186A20DC8CB500F20B18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1167186920DC8CB500F20B18 /* ViewController.m */; };
+		1167186D20DC8CB600F20B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1167186B20DC8CB600F20B18 /* Main.storyboard */; };
+		1167187020DC8CB600F20B18 /* UseIQKeyboardManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1167186E20DC8CB600F20B18 /* UseIQKeyboardManager.xcdatamodeld */; };
+		1167187220DC8CB700F20B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1167187120DC8CB700F20B18 /* Assets.xcassets */; };
+		1167187520DC8CB700F20B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1167187320DC8CB700F20B18 /* LaunchScreen.storyboard */; };
+		1167187820DC8CB800F20B18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1167187720DC8CB800F20B18 /* main.m */; };
+		1167188220DC8CB800F20B18 /* UseIQKeyboardManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1167188120DC8CB800F20B18 /* UseIQKeyboardManagerTests.m */; };
+		1167188D20DC8CB800F20B18 /* UseIQKeyboardManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1167188C20DC8CB800F20B18 /* UseIQKeyboardManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1167187E20DC8CB800F20B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1167185A20DC8CB500F20B18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1167186120DC8CB500F20B18;
+			remoteInfo = UseIQKeyboardManager;
+		};
+		1167188920DC8CB800F20B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1167185A20DC8CB500F20B18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1167186120DC8CB500F20B18;
+			remoteInfo = UseIQKeyboardManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1167186220DC8CB500F20B18 /* UseIQKeyboardManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseIQKeyboardManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1167186520DC8CB500F20B18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1167186620DC8CB500F20B18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1167186820DC8CB500F20B18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1167186920DC8CB500F20B18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1167186C20DC8CB600F20B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1167186F20DC8CB600F20B18 /* UseIQKeyboardManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UseIQKeyboardManager.xcdatamodel; sourceTree = "<group>"; };
+		1167187120DC8CB700F20B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1167187420DC8CB700F20B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1167187620DC8CB700F20B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1167187720DC8CB800F20B18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1167187D20DC8CB800F20B18 /* UseIQKeyboardManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseIQKeyboardManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1167188120DC8CB800F20B18 /* UseIQKeyboardManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseIQKeyboardManagerTests.m; sourceTree = "<group>"; };
+		1167188320DC8CB800F20B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1167188820DC8CB800F20B18 /* UseIQKeyboardManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseIQKeyboardManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1167188C20DC8CB800F20B18 /* UseIQKeyboardManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseIQKeyboardManagerUITests.m; sourceTree = "<group>"; };
+		1167188E20DC8CB800F20B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482FE728E1AFA6F01370FECD /* Pods-UseIQKeyboardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseIQKeyboardManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UseIQKeyboardManager/Pods-UseIQKeyboardManager.debug.xcconfig"; sourceTree = "<group>"; };
+		559BA04DE12D9B8D70EBCC95 /* libPods-UseIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UseIQKeyboardManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44052D1D4D651C8040788A3 /* Pods-UseIQKeyboardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseIQKeyboardManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-UseIQKeyboardManager/Pods-UseIQKeyboardManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1167185F20DC8CB500F20B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EACAD677FACA981C621BD5 /* libPods-UseIQKeyboardManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167187A20DC8CB800F20B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167188520DC8CB800F20B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1167185920DC8CB500F20B18 = {
+			isa = PBXGroup;
+			children = (
+				1167186420DC8CB500F20B18 /* UseIQKeyboardManager */,
+				1167188020DC8CB800F20B18 /* UseIQKeyboardManagerTests */,
+				1167188B20DC8CB800F20B18 /* UseIQKeyboardManagerUITests */,
+				1167186320DC8CB500F20B18 /* Products */,
+				2462A94796674F9D0C36C0C7 /* Pods */,
+				D81B4A881D918A3A2FD28A37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1167186320DC8CB500F20B18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1167186220DC8CB500F20B18 /* UseIQKeyboardManager.app */,
+				1167187D20DC8CB800F20B18 /* UseIQKeyboardManagerTests.xctest */,
+				1167188820DC8CB800F20B18 /* UseIQKeyboardManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1167186420DC8CB500F20B18 /* UseIQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				1167186520DC8CB500F20B18 /* AppDelegate.h */,
+				1167186620DC8CB500F20B18 /* AppDelegate.m */,
+				1167186820DC8CB500F20B18 /* ViewController.h */,
+				1167186920DC8CB500F20B18 /* ViewController.m */,
+				1167186B20DC8CB600F20B18 /* Main.storyboard */,
+				1167187120DC8CB700F20B18 /* Assets.xcassets */,
+				1167187320DC8CB700F20B18 /* LaunchScreen.storyboard */,
+				1167187620DC8CB700F20B18 /* Info.plist */,
+				1167187720DC8CB800F20B18 /* main.m */,
+				1167186E20DC8CB600F20B18 /* UseIQKeyboardManager.xcdatamodeld */,
+			);
+			path = UseIQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		1167188020DC8CB800F20B18 /* UseIQKeyboardManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1167188120DC8CB800F20B18 /* UseIQKeyboardManagerTests.m */,
+				1167188320DC8CB800F20B18 /* Info.plist */,
+			);
+			path = UseIQKeyboardManagerTests;
+			sourceTree = "<group>";
+		};
+		1167188B20DC8CB800F20B18 /* UseIQKeyboardManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1167188C20DC8CB800F20B18 /* UseIQKeyboardManagerUITests.m */,
+				1167188E20DC8CB800F20B18 /* Info.plist */,
+			);
+			path = UseIQKeyboardManagerUITests;
+			sourceTree = "<group>";
+		};
+		2462A94796674F9D0C36C0C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				482FE728E1AFA6F01370FECD /* Pods-UseIQKeyboardManager.debug.xcconfig */,
+				F44052D1D4D651C8040788A3 /* Pods-UseIQKeyboardManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D81B4A881D918A3A2FD28A37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559BA04DE12D9B8D70EBCC95 /* libPods-UseIQKeyboardManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1167186120DC8CB500F20B18 /* UseIQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1167189120DC8CB800F20B18 /* Build configuration list for PBXNativeTarget "UseIQKeyboardManager" */;
+			buildPhases = (
+				9CED325881EB17F18537063F /* [CP] Check Pods Manifest.lock */,
+				1167185E20DC8CB500F20B18 /* Sources */,
+				1167185F20DC8CB500F20B18 /* Frameworks */,
+				1167186020DC8CB500F20B18 /* Resources */,
+				F4D8A8A37D607F5EE3FE3BAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UseIQKeyboardManager;
+			productName = UseIQKeyboardManager;
+			productReference = 1167186220DC8CB500F20B18 /* UseIQKeyboardManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1167187C20DC8CB800F20B18 /* UseIQKeyboardManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1167189420DC8CB800F20B18 /* Build configuration list for PBXNativeTarget "UseIQKeyboardManagerTests" */;
+			buildPhases = (
+				1167187920DC8CB800F20B18 /* Sources */,
+				1167187A20DC8CB800F20B18 /* Frameworks */,
+				1167187B20DC8CB800F20B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1167187F20DC8CB800F20B18 /* PBXTargetDependency */,
+			);
+			name = UseIQKeyboardManagerTests;
+			productName = UseIQKeyboardManagerTests;
+			productReference = 1167187D20DC8CB800F20B18 /* UseIQKeyboardManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1167188720DC8CB800F20B18 /* UseIQKeyboardManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1167189720DC8CB800F20B18 /* Build configuration list for PBXNativeTarget "UseIQKeyboardManagerUITests" */;
+			buildPhases = (
+				1167188420DC8CB800F20B18 /* Sources */,
+				1167188520DC8CB800F20B18 /* Frameworks */,
+				1167188620DC8CB800F20B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1167188A20DC8CB800F20B18 /* PBXTargetDependency */,
+			);
+			name = UseIQKeyboardManagerUITests;
+			productName = UseIQKeyboardManagerUITests;
+			productReference = 1167188820DC8CB800F20B18 /* UseIQKeyboardManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1167185A20DC8CB500F20B18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = alexander;
+				TargetAttributes = {
+					1167186120DC8CB500F20B18 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					1167187C20DC8CB800F20B18 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 1167186120DC8CB500F20B18;
+					};
+					1167188720DC8CB800F20B18 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 1167186120DC8CB500F20B18;
+					};
+				};
+			};
+			buildConfigurationList = 1167185D20DC8CB500F20B18 /* Build configuration list for PBXProject "UseIQKeyboardManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1167185920DC8CB500F20B18;
+			productRefGroup = 1167186320DC8CB500F20B18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1167186120DC8CB500F20B18 /* UseIQKeyboardManager */,
+				1167187C20DC8CB800F20B18 /* UseIQKeyboardManagerTests */,
+				1167188720DC8CB800F20B18 /* UseIQKeyboardManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1167186020DC8CB500F20B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1167187520DC8CB700F20B18 /* LaunchScreen.storyboard in Resources */,
+				1167187220DC8CB700F20B18 /* Assets.xcassets in Resources */,
+				1167186D20DC8CB600F20B18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167187B20DC8CB800F20B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167188620DC8CB800F20B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CED325881EB17F18537063F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UseIQKeyboardManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D8A8A37D607F5EE3FE3BAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UseIQKeyboardManager/Pods-UseIQKeyboardManager-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UseIQKeyboardManager/Pods-UseIQKeyboardManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1167185E20DC8CB500F20B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1167187020DC8CB600F20B18 /* UseIQKeyboardManager.xcdatamodeld in Sources */,
+				1167186A20DC8CB500F20B18 /* ViewController.m in Sources */,
+				1167187820DC8CB800F20B18 /* main.m in Sources */,
+				1167186720DC8CB500F20B18 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167187920DC8CB800F20B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1167188220DC8CB800F20B18 /* UseIQKeyboardManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167188420DC8CB800F20B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1167188D20DC8CB800F20B18 /* UseIQKeyboardManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1167187F20DC8CB800F20B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1167186120DC8CB500F20B18 /* UseIQKeyboardManager */;
+			targetProxy = 1167187E20DC8CB800F20B18 /* PBXContainerItemProxy */;
+		};
+		1167188A20DC8CB800F20B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1167186120DC8CB500F20B18 /* UseIQKeyboardManager */;
+			targetProxy = 1167188920DC8CB800F20B18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1167186B20DC8CB600F20B18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1167186C20DC8CB600F20B18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1167187320DC8CB700F20B18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1167187420DC8CB700F20B18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1167188F20DC8CB800F20B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1167189020DC8CB800F20B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1167189220DC8CB800F20B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482FE728E1AFA6F01370FECD /* Pods-UseIQKeyboardManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9LD73WP5P;
+				INFOPLIST_FILE = UseIQKeyboardManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UseIQKeyboardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1167189320DC8CB800F20B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44052D1D4D651C8040788A3 /* Pods-UseIQKeyboardManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9LD73WP5P;
+				INFOPLIST_FILE = UseIQKeyboardManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UseIQKeyboardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1167189520DC8CB800F20B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UseIQKeyboardManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UseIQKeyboardManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UseIQKeyboardManager.app/UseIQKeyboardManager";
+			};
+			name = Debug;
+		};
+		1167189620DC8CB800F20B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UseIQKeyboardManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UseIQKeyboardManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UseIQKeyboardManager.app/UseIQKeyboardManager";
+			};
+			name = Release;
+		};
+		1167189820DC8CB800F20B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UseIQKeyboardManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UseIQKeyboardManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UseIQKeyboardManager;
+			};
+			name = Debug;
+		};
+		1167189920DC8CB800F20B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UseIQKeyboardManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UseIQKeyboardManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UseIQKeyboardManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1167185D20DC8CB500F20B18 /* Build configuration list for PBXProject "UseIQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1167188F20DC8CB800F20B18 /* Debug */,
+				1167189020DC8CB800F20B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1167189120DC8CB800F20B18 /* Build configuration list for PBXNativeTarget "UseIQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1167189220DC8CB800F20B18 /* Debug */,
+				1167189320DC8CB800F20B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1167189420DC8CB800F20B18 /* Build configuration list for PBXNativeTarget "UseIQKeyboardManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1167189520DC8CB800F20B18 /* Debug */,
+				1167189620DC8CB800F20B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1167189720DC8CB800F20B18 /* Build configuration list for PBXNativeTarget "UseIQKeyboardManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1167189820DC8CB800F20B18 /* Debug */,
+				1167189920DC8CB800F20B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1167186E20DC8CB600F20B18 /* UseIQKeyboardManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1167186F20DC8CB600F20B18 /* UseIQKeyboardManager.xcdatamodel */,
+			);
+			currentVersion = 1167186F20DC8CB600F20B18 /* UseIQKeyboardManager.xcdatamodel */;
+			path = UseIQKeyboardManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1167185A20DC8CB500F20B18 /* Project object */;
+}
